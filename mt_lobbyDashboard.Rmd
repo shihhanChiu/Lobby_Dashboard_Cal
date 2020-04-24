@@ -77,6 +77,14 @@ library(dplyr); library(htmltools)
   cursor: pointer;
 }
 
+td {
+    padding: 3px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+    border-radius: 2px;
+}
+
 .m_back > a{
   border:0.5px solid black;
   border-radius: 15px;
@@ -86,6 +94,10 @@ library(dplyr); library(htmltools)
 
 .m_now{
   
+}
+
+.tags_scrl::-webkit-scrollbar{
+  display:none;
 }
 
 .m_next > a{
