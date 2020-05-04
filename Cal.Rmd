@@ -44,6 +44,14 @@ params:
   cursor: pointer;
 }
 
+td {
+    padding: 3px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+    border-radius: 2px;
+}
+
 .m_back > a{
   border:0.5px solid black;
   border-radius: 15px;
@@ -51,8 +59,13 @@ params:
 
 }
 
-.m_now{
-  
+.m_back > a:hover{
+  background-color: #7C7C7C;
+  color: white;
+}
+
+.m_back > a > span:hover{
+  color: white
 }
 
 .m_next > a{
@@ -61,8 +74,19 @@ params:
   padding:3px 5px;
 }
 
+.m_next > a:hover{
+  background-color: #7C7C7C;
+}
+
+.m_next > a > span:hover{
+  color: white
+}
 .material-icons{
   line-height: 1.5;
+}
+
+.tags_scrl::-webkit-scrollbar{
+  display:none;
 }
 ```
 
