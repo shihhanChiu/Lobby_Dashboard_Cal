@@ -89,25 +89,34 @@ td {
   border:0.5px solid black;
   border-radius: 15px;
   padding:3px 5px;
+  color: grey;
 
 }
 
-.m_now{
-  
+.m_back > a:hover{
+  background-color: #7C7C7C;
+  color: white;
 }
 
-.tags_scrl::-webkit-scrollbar{
-  display:none;
-}
 
 .m_next > a{
   border:0.5px solid black;
   border-radius: 15px;
   padding:3px 5px;
+  color: grey;
+}
+
+.m_next > a:hover{
+  background-color: #7C7C7C;
+  color: white
 }
 
 .material-icons{
   line-height: 1.5;
+}
+
+.tags_scrl::-webkit-scrollbar{
+  display:none;
 }
 ```
 
