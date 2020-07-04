@@ -1,4 +1,5 @@
 ---
+title: Cal_Demo
 output: 
   html_document:
     theme: null
@@ -129,7 +130,7 @@ td {
 .dialog-border-bottom:before {
     border-color: #888888 transparent transparent; 
     border-style: solid solid solid; 
-    border-width: 20px 20px 20px 20px; 
+    border-width: 5px 5px 5px 5px; 
     bottom: -40px;
  
     /* 必須指定，才能顯示內容 */
