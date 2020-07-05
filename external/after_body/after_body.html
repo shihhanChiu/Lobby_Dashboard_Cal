@@ -38,7 +38,25 @@ document.querySelector("#m_back > div > a").addEventListener("click",function(){
   
 </script>
 <script type="text/javascript">
+var sec_f = document.querySelector("#box > div.col.s2.white > div > span:nth-child(3)")
+var fir_f = document.querySelector("#box > div.col.s2.white > div > span.one.grey.lighten-3.grey-text.text-darken-4.btn")
+var fir_f_m = document.querySelector("#map > div:nth-child(1) > img")
+var sec_f_m = document.querySelector("#map > div:nth-child(2)")
+var fnum = 0
+$(document).ready(function(){
+  $(sec_f).click(function(){
+      $(fir_f_m).css("display","none");
+      $(sec_f_m).css("display","block");
+      });
+      $(fir_f).click(function(){
+          $(fir_f_m).css("display","block");
+          $(sec_f_m).css("display","none"); 
+      });
+      });
 
+$(document).ready(function(){
+    $('.tooltipped').tooltip();
+  });
 </script>
 <!--
 <script type="text/javascript">
