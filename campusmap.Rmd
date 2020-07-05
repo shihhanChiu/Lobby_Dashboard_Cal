@@ -1,0 +1,54 @@
+---
+output: 
+  html_document:
+    theme: null
+    highlight: null
+    mathjax: null
+    self_contained: false
+    includes:
+      in_header: "external/in_header/header.html"
+      before_body: "external/before_body/before_body.html"
+      after_body: "external/after_body/after_body.html"
+params:
+  output_filename: "CampusMap.html"
+---
+```{css, echo=F, eval=T}
+#box{
+ margin: 10px;
+ padding: 10px 5px;
+}
+
+#map{
+ 
+}
+.number{
+  padding-top: 200px;
+}
+.one{
+  border: 1px solid black;
+  padding: 8px;
+  position: relative;
+  left: 2px;
+  font-size: 15px;
+}
+.two{
+  border: 1px solid black;
+  padding: 8px;
+  position: relative;
+  top: 50px;
+  left: 2px;
+  font-size: 15px;
+}
+.name_list{
+  position: relative;
+}
+.name_tb{
+  position: relative;
+  top: 130px;
+}
+```
+
+```{r,echo=FALSE}
+htmltools::includeHTML("external/within_body/campusmap.html")
+```
+
